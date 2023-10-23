@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label Content="x1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.194,-0.202"/>
+        <TextBox x:Name="x1" HorizontalAlignment="Left" Margin="37,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27"/>
+        <Label Content="x2" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.194,-0.202"/>
+        <TextBox x:Name="x2" HorizontalAlignment="Left" Margin="37,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27"/>
+        <Label Content="y1" HorizontalAlignment="Left" Margin="72,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.194,-0.202"/>
+        <TextBox x:Name="y1" HorizontalAlignment="Left" Margin="99,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27"/>
+        <Label Content="y2" HorizontalAlignment="Left" Margin="72,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.194,-0.202"/>
+        <TextBox x:Name="y2" HorizontalAlignment="Left" Margin="99,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="27"/>
+        <Button Click="Count" Content="Count" HorizontalAlignment="Left" Margin="145,44,0,0" VerticalAlignment="Top"/>
+        <Label Content="width" HorizontalAlignment="Left" Margin="225,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="width" Content="" HorizontalAlignment="Left" Margin="270,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="height" HorizontalAlignment="Left" Margin="225,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="height" Content="" HorizontalAlignment="Left" Margin="270,41,0,0" VerticalAlignment="Top"/>
+        <Image Margin="5,243,5,10" Source="/Image1.png" Stretch="Fill"/>
+
     </Grid>
 </Window>
